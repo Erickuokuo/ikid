@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wn2-tM-nGm">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Puns-->
+        <scene sceneID="ala-f2-3Wv">
+            <objects>
+                <viewController title="Puns" id="ltK-Ln-fBO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FBa-Me-B7c">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92I-3a-QWF">
+                                <rect key="frame" x="175" y="108" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4yf-dR-7bB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pun Jokes" selectedImage="flame.fill" catalog="system" id="8ES-fG-Eil"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Du4-WM-MXl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="579" y="99"/>
+        </scene>
+        <!--DadJokes-->
+        <scene sceneID="mCd-KU-NPV">
+            <objects>
+                <viewController title="DadJokes" id="n58-pe-h4h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l54-Pu-7wr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dad Jokes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0f-45-t7I">
+                                <rect key="frame" x="113.33333333333333" y="73" width="166.33333333333337" height="44.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUc-rb-dvv">
+                                <rect key="frame" x="293.33333333333331" y="734.66666666666663" width="59.666666666666686" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ByL-wL-Zzv">
+                                <rect key="frame" x="76" y="247.33333333333337" width="240" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2He-TZ-Wli">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aZ8-0K-Jgk">
+                                        <rect key="frame" x="0.0" y="29.999999999999972" width="240" height="170"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="HEr-SR-4X8"/>
+                                    <constraint firstAttribute="width" constant="240" id="WNi-6Y-6K2"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OgF-8F-CfN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QUc-rb-dvv" firstAttribute="bottom" secondItem="OgF-8F-CfN" secondAttribute="bottom" id="BcR-bh-BLH"/>
+                            <constraint firstItem="A0f-45-t7I" firstAttribute="top" secondItem="OgF-8F-CfN" secondAttribute="top" constant="14" id="IvZ-Az-KWD"/>
+                            <constraint firstItem="ByL-wL-Zzv" firstAttribute="top" secondItem="A0f-45-t7I" secondAttribute="bottom" constant="130" id="QL2-i9-kN5"/>
+                            <constraint firstItem="ByL-wL-Zzv" firstAttribute="leading" secondItem="OgF-8F-CfN" secondAttribute="leading" constant="76" id="V8e-4W-Fc6"/>
+                            <constraint firstItem="A0f-45-t7I" firstAttribute="centerX" secondItem="l54-Pu-7wr" secondAttribute="centerX" id="YrG-8a-vFs"/>
+                            <constraint firstItem="OgF-8F-CfN" firstAttribute="trailing" secondItem="ByL-wL-Zzv" secondAttribute="trailing" constant="77" id="ay6-BR-fdY"/>
+                            <constraint firstItem="OgF-8F-CfN" firstAttribute="trailing" secondItem="QUc-rb-dvv" secondAttribute="trailing" constant="40" id="eMz-ab-rvN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dad Jokes" selectedImage="flame.fill" catalog="system" id="b8D-YD-DIb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5D-1f-Anq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576.33587786259545" y="-509.15492957746483"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Dzo-U1-DPE">
+            <objects>
+                <tabBarController id="wn2-tM-nGm" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pvB-uR-ad4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="n58-pe-h4h" kind="relationship" relationship="viewControllers" id="AIu-EE-hOO"/>
+                        <segue destination="ltK-Ln-fBO" kind="relationship" relationship="viewControllers" id="wae-iW-cJn"/>
+                        <segue destination="xqQ-mY-wRw" kind="relationship" relationship="viewControllers" id="lYn-8A-GRB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OEO-9i-Afm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-327" y="-206"/>
+        </scene>
+        <!--GoodJokes-->
+        <scene sceneID="H47-Va-6kh">
+            <objects>
+                <viewController title="GoodJokes" id="xqQ-mY-wRw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BOq-Uy-wkh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cw-vY-ZZM">
+                                <rect key="frame" x="175" y="104" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uvf-hT-hQh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Good Jokes" selectedImage="flame.fill" catalog="system" id="sGQ-lL-1y1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MXI-xT-0bs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="-1163"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flame.fill" catalog="system" width="106" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
